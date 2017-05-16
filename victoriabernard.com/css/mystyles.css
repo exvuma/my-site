@@ -61,3 +61,7 @@
 .well{
   background-color:#b190d6;
 }
+.navbar-fixed-top .navbar-brand{
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
