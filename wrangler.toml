@@ -1,0 +1,13 @@
+name = "my-site"
+type = "webpack"
+account_id = "323b0253f67c95c7bf534629f3d2fc04"
+workers_dev = false
+
+zone_id="904c72ea3a00b3db4ef8fc0f53dbddf7"
+route="https://victoriabernard.com/*"
+
+
+[site]
+bucket = "./victoriabernard.com"
+entry-point = "workers-site"
+
