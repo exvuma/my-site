@@ -1,2 +1,3 @@
 -var-www/*
 dist
+**/.next/**
