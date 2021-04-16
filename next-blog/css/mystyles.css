@@ -8,7 +8,9 @@ img.vic {
   max-width: 50px;
   max-height: 50px;
 }
-
+p.post img {
+  max-width: 100%;
+}
 .navbar-brand > img {
   /* > means direct decendents are matched, simple space means any decendent*/
   max-width: 100%;
