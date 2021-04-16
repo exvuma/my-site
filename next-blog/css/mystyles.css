@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+.social-icon-wrapper {
+  margin: 12px 0;
+}
+img.vic {
+  /*>img{*/
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.navbar-brand > img {
+  /* > means direct decendents are matched, simple space means any decendent*/
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+}
+.img-responsive {
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+}
+.col-md-7 {
+  width: 20%;
+}
+.col-md-5 {
+  width: 40%;
+}
+.col-md-3 {
+  padding-top: 34pt;
+  width: 40%;
+}
+.btn-primary {
+  background-color: #863adf;
+  border-color: #863adf;
+}
+.contianer {
+  padding-left: 60pt;
+}
+.navbar-fixed-top .navbar-brand {
+  display: inline-block;
+}
+.container > .navbar-header {
+  background-color: white;
+  border-color: purple;
+}
+/*Toggle Nav Menu*/
+.navbar-inverse .navbar-toggle {
+  border-color: #4c1f7f;
+  color: yellow;
+  /*purple grey */
+  background-color: #a686c9;
+}
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #a686c9;
+}
+.navbar-inverse .navbar-collapse {
+  background-color: white;
+  border-color: #d9d6f5; /*#a686c9;*/
+}
+.navbar-inverse {
+  background-color: white;
+  border-color: #d9d6f5;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #6a39b4;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #6a39b4;
+  background-color: transparent;
+}
+.well {
+  background-color: #b190d6;
+}
+.navbar-fixed-top .navbar-brand {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* Blog Styles */
+.container .container-sm {
+  max-width: 60%;
+}
+.post-preview > a {
+  color: #5a2c8a;
+}
+.post-preview > .post-meta {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 0;
+  font-weight: 120;
+  color: #868e96;
+}
+.post-preview > a > .post-subtitle {
+  font-weight: 300;
+}
+.post-preview > a:focus,
+.post-preview > a:hover {
+  text-decoration: none;
+  color: #b1a8ec;
+}
+.post-preview > a > .post-title {
+  font-size: 36px;
+}
+
+p.post {
+  line-height: 1.5;
+  margin: 30px 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.post-preview > .post-meta.blog {
+  font-size: 11px;
+  font-style: italic;
+  margin-top: 0;
+  font-weight: 120;
+  color: #868e96;
+}
