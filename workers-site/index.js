@@ -43,6 +43,7 @@ async function handleEvent(event) {
     }
     const path = url.pathname
     console.log(path)
+    // Blog portion is hosted on Vercel and not Workers
     if (path.includes('blog')) {
       const resp = await fetch(
         'https://nextjs-git-master.victoriabernard92.vercel.app/' + 'posts'
